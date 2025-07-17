@@ -1,0 +1,11 @@
+{
+  "config": {
+    "name": "SearchEngine",
+    "version": "0.1"
+  },
+  "files": [
+    "resources/text1.txt",
+    "resources/text2.txt",
+    "resources/text3.txt"
+  ]
+}
