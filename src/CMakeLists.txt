@@ -12,5 +12,5 @@ target_include_directories(search_engine
 configure_file(${CMAKE_SOURCE_DIR}/config/config.json ${CMAKE_BINARY_DIR})
 configure_file(${CMAKE_SOURCE_DIR}/config/requests.json ${CMAKE_BINARY_DIR})
 
-file(GLOB TXT_FILES "${CMAKE_SOURCE_DIR}/resources/*.txt")
+file(GLOB TXT_FILES "/resources/*.txt")
 file(COPY ${TXT_FILES} DESTINATION ${CMAKE_BINARY_DIR}/resources)

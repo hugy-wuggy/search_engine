@@ -13,9 +13,9 @@ class ConverterJSON {
     int _max_responses;
     std::vector<std::string> _file_names;
 public:
-    ConverterJSON(const std::string& _config_path = "${CMAKE_BINARY_DIR}/config/config.json",
-                  const std::string& _request_path = "${CMAKE_BINARY_DIR}/config/requests.json",
-                  const std::string& _answers_path = "${CMAKE_BINARY_DIR}/config/answers.json"
+    ConverterJSON(const std::string& _config_path = "config.json",
+                  const std::string& _request_path = "requests.json",
+                  const std::string& _answers_path = "answers.json"
                   );
 
     std::vector<std::string> getTextDocuments();
